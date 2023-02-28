@@ -1,0 +1,424 @@
+/* GENERAL */
+
+@font-face {
+    font-family: importFont;
+    src: url(restora.otf)
+  }
+  
+  
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  
+    body {
+      background-color: white;
+    }
+  
+    p {
+      text-align: left;
+      width: 80%;
+      margin: 0 auto 0.2em auto;
+      font-size: 1.1em;
+      font-weight: 300;
+      letter-spacing: 0.03em;
+      line-height: 1.8em;
+      color: #010c39;
+    }
+  
+    p2 {
+      text-align: left;
+      width: 80%;
+      margin: 0 auto 0.2em auto;
+      font-size: 1.1em;
+      font-weight: 300;
+      letter-spacing: 0.03em;
+      line-height: 1.8em;
+      color: #010c39;
+    }
+  
+    h2 {
+      font-family: importFont;
+      text-align: left;
+      width: 80%;
+      margin: 0 auto 0.2em auto;
+      font-size: 1.8em;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      line-height: 2em;
+      color: #010c39;
+    }
+  
+  
+    h3 {
+      font-family: importFont;
+      text-align: left;
+      width: 80%;
+      margin: 0 auto 0.2em auto;
+      font-size: 1.5em;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      line-height: 1.8em;
+      color: #010c39;
+    }
+  
+    h8 {
+      font-family: importFont;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto 0.2em auto;
+      font-size: 1.5em;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      line-height: 1.8em;
+      color: #010c39;
+    }
+  
+    h4 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto 1em auto;
+      font-size: 1.1em;
+      font-weight: 300;
+      letter-spacing: 0.03em;
+      line-height: 1.8em;
+      color: #010c39;
+    }
+  
+    h5 {
+      font-size: 1.5em;
+      font-family: importFont;
+    }
+  
+    h6 {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto 0.2em auto;
+      font-size: 1.2em;
+      font-weight: 300;
+      letter-spacing: 0.03em;
+      line-height: 1.8em;
+      color: #010c39;
+    }
+  
+    .heart img{
+      filter:none;
+      margin-top: 0em;
+      margin-bottom:-2em;
+      width: 12em;
+    }
+  
+    p1{
+      font-weight: 300;
+      font-size: 1.4em;
+      letter-spacing: 0.02em;
+    }
+  
+    .uh{
+      margin: 0em 8em;
+    }
+  
+  
+    .uh h4{
+      text-align: center;
+      font-size: 1.1em;
+    }
+  
+    .uh p{
+      text-align: center;
+    }
+  
+    .quiz h3{
+      text-align: center;
+    }
+  
+  /* VIDEO */
+    
+  .bg-video-wrap {
+      position: relative;
+      overflow: hidden;
+      height: 100vh;
+      width: fit-content;
+      background-color: white;
+      scroll-behavior: smooth;
+    }
+    /*
+  .overlay {
+      width: 100%;
+      height: 100vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: linear-gradient(45deg, rgba(21, 21, 21, 0.772) 50%, rgba(34, 34, 34, 0.567) 50%);
+      background-size: 3px 3px;
+    }
+    */
+  
+    .video {
+      /* height: 100vh;*/
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+  }
+    video {
+  
+      z-index: 1;
+      width: 100%;
+      /*
+          min-width: 100%;
+      min-height: 100vh;
+      -webkit-filter: grayscale(100%); 
+    filter: brightness(800%);
+    filter: grayscale(100%);
+    */
+    }
+  
+  /* INTRO */
+  
+   .intro {
+      margin: 8em;
+      padding-left: 5em;
+      padding-right: 5em;
+      padding-top: 6em;
+   }
+  
+  /* INTRO2 */
+  
+  .intro2{
+    margin: 8em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+  }
+  
+  
+  /* QUIZ */
+  
+   .quiz {
+      margin-top: 20em;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 80em;
+      background-color: #ffffff;
+      padding: 0em 0.5em 3.5em;
+      position: relative;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 1.2em;
+     filter: drop-shadow(0 0.3em 0.9em rgba(196, 196, 196, 0.25)); 
+    }
+    .draggable-objects,
+    .drop-points {
+      display: flex;
+      justify-content: space-around;
+      padding: 2em;
+    }
+    .draggable-image {
+      width: 15em;
+      cursor: move;
+    }
+    img {
+      width: 15em;
+      filter: drop-shadow(0 0.3em 0.9em rgba(73, 73, 73, 0.25));
+    }
+    .generations {
+      width: 17em;
+      height: 12em;
+      display: grid;
+      place-items: center;
+      border: 0.25em dashed #010c39;
+      border-radius: 0em;
+      font-size: 1em;
+    }
+    .dropped {
+      padding: 0;
+      background-color: #e5ffc8;
+    }
+  
+    .controls-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      background-color: white;
+      flex-direction: column;
+      margin-bottom: -5em;
+    }
+    .controls-container button {
+      font-family: importFont;
+      font-size: 2em;
+      padding: 0.8em 1em;
+      border-radius: 0.2em;
+      border: none;
+      outline: none;
+      color: #010c39;
+      letter-spacing: 0.06em;
+      cursor: pointer;
+      margin-top: 3em;
+    }
+    /*
+    .controls-container p {
+      color: white;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+  
+    */
+    .hide {
+      display: none;
+    }
+  
+    .controls-container img{
+      margin-top: 1.5em;
+     width:4em;
+    }
+    
+  
+  /* CARDS */
+  
+  /* .scene is the container of 3d Effect */
+  .scene {
+    perspective: 500px;
+  }
+  /* 3d object */
+  .flipcard {
+    margin-top: 10em;
+    width: 20em;
+    height: 28em;
+    border-radius: 1em;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+  
+    align-items: center;
+    text-align: center;
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  
+  }
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+    backface-visibility: hidden; /*Hide another side of Card*/
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .front { 
+    background-color: #ffffff;
+  }
+  .back {
+    background-color: #000000;
+    transform: rotateY(180deg);
+    display: flex;
+  }
+  
+  .scene:hover .flipcard {
+    transform: rotateY(-180deg);
+  }
+  
+  .card{
+    padding-bottom: 6em;
+  }
+  
+  
+  .flipcard img{
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin: 1.2em;
+  }
+  
+  .flipcard .details h3{
+      font-weight: 600;
+      width: 10em;
+      text-align: center;
+  }
+  .flipcard .details p{
+      text-transform: uppercase;
+      font-weight: 300;
+      width: 8em;
+  }
+  
+  .flipcard .details h5{
+    font-weight: 600;
+    width: 8em;
+    color: black;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 8em 8em 8em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  
+  /* FOOTER */
+  .footer {
+    margin: 5em 5em 8em 5em;
+  
+  }
+  
+  .footer h2{
+    text-align: center;
+  }
+  
+  
+  /* panel styles */
+  .panel {
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: -6.5em;
+    align-items: center;
+      /* outline: 10px solid red; */
+      /* turn above on to see the edge of panels */
+    overflow-y:auto;
+  }
+  
+  /* colours */
+  
+  [data-paint="blue"] {
+      background-color: #f4f5ff;
+  }
+  
+  [data-paint="green"] {
+      background-color: #f4fbff;
+  }
+  
+  [data-paint="pink"] {
+      background-color: #fff4f9;
+  }
+  
+  [data-paint="purple"] {
+      background-color: #fbf2ff;
+  }
+  
+  
+  
+  
+  
