@@ -122,7 +122,11 @@
     }
   
     .uh{
-      margin: 0em 8em;
+      margin: auto;
+    }
+
+    .uh h2{
+      text-align: center;
     }
   
   
